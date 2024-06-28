@@ -150,6 +150,7 @@ window.onload = () => {
       } else {
         const nomeJogador1 = document.getElementById('nomeJogador1').value.trim();
         const nomeJogador2 = document.getElementById('nomeJogador2').value.trim();
+         localStorage.clear();
         localStorage.setItem('nomeJogador1', nomeJogador1);
         localStorage.setItem('nomeJogador2', nomeJogador2);
         window.location.href = 'telajogo.html';
